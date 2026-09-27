@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: 'export',
+  basePath: '/fluid-cta-animation-template',
+  assetPrefix: '/fluid-cta-animation-template/',
   eslint: {
     ignoreDuringBuilds: true,
   },
